@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+   
+    width:500px ;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      display: flex;
+      flex-direction: column;
+}
+.card-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-quote-left{
+     margin-top: 200px;
+     background-color: #94d2bd;
+     color: #fff;
+     border-radius: 40px;
+     position: absolute;
+     top: -90px;
+     left: 620px;
+     z-index: 3;
+     width: 30px;
+     height: 30px;
+     padding-top: 3px;
+     padding-left: 4px;    
+     transition-duration: .3s; 
+}
+.bgcolor{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    background-color: #94d2bd;
+    transition-duration: .3s;
+}
+
+.card-head img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    z-index: 3;
+    position: absolute;
+    top: 100px;
+}
+.information-actor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.information-actor .fullName{
+    font-size: 30px;
+  
+}
+.information-actor .job{
+    font-size: 20px;
+   color: gray;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-content .skills{
+    font-size: 16px;
+}
+.card .card-content .btn{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-content .btn button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #94d2bd;
+    color: #fff;
+    font-size: 20px;   
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.card .showing-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+     height: 20vh;
+     margin-inline: auto;
+      background-color: #0a9396;
+      border-radius: 30px;
+      color: #fff;
+      transition-duration: .3s;
+      cursor: pointer;
+}
+.card .showing-skills:hover{
+    background-color: #041a22;
+}
+.none{
+    display: none;
+}
+
+
